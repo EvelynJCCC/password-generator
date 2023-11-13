@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'YourCustomFont';
+    src: url('IMPROVIE_Regular.ttf') format('truetype');
+}
+
+
+
+
+body {
+    margin: 0;
+    padding: 20px;
+    background: #faf3dd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+}
+
+p {
+    margin-top: 20px;
+    font-family: 'Gabarito', sans-serif;
+    font-size: 2 em;
+}
+
+.passwords {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Gabarito', sans-serif;
+}
+
+.password-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 30px;
+    border: 1px solid #b56576;
+    margin: 10px 10px;
+    padding: 5px;
+    font-size: 1em;
+    white-space: nowrap;
+    background: #fbc4ab;
+    color: #b56576;
+    font-family: 'Gabarito', sans-serif;
+    box-shadow: -8px 8px 0 1px #b56576;
+}
+
+
+
+#flower {
+    width: 100px;
+    height: 100px;
+   
+} 
+hr {
+    border: 0.5px solid black;
+    margin-bottom: 30px;
+
+}
+
+.all-items {
+    margin: auto;
+    padding: 100px; 
+    max-width: 400px;
+    border: 1px solid black;
+    background-color: #faf3dd;
+    color: black;
+}
+
+
+#h {
+    font-weight: bold;
+    font-size: 3em;
+}
+h1 {
+    font-weight: bold;
+    font-size: 3em;
+    font-family: 'YourCustomFont', sans-serif;
+    color: black;
+}
+
+#pass-btn {
+    box-shadow: -8px 8px 0 1px #b56576;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 100%;
+    width: 100%;
+    height: 30%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 1px solid #b56576;
+    padding: 8px 15px;
+    font-family: 'Gabarito', sans-serif;
+    color: #b56576;
+    background: #fbc4ab;
+}
+
+#pass-btn:hover {
+    background: #f8ad9d;
+    color: #b56576;
+}
+
+.title-container {
+    border: 1px solid black;
+    padding: 20px;
+    box-shadow: -10px 10px 0 -1px  #faf3dd, -10px 10px 0 0.2px black;
+}
